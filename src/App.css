@@ -1,0 +1,28 @@
+body {
+    background-color: #000 !important;
+}
+
+#nav {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    margin: 0ps auto;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.nav-item .active {
+    color: goldenrod !important;
+}
+
+.leftleaf {
+    height: 400px;
+    position: absolute;
+    top: 20;
+    background-color: #fff;
+    left: -50px;
+    z-index: 3;
+}
