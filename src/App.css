@@ -1,5 +1,6 @@
 body {
     background-color: #000 !important;
+    overflow-x: hidden;
 }
 
 #nav {
@@ -18,11 +19,35 @@ body {
     color: goldenrod !important;
 }
 
+.text-golden {
+    color: goldenrod;
+}
+
 .leftleaf {
-    height: 400px;
+    height: 300px;
     position: absolute;
-    top: 20;
-    background-color: #fff;
+    top: 0;
     left: -50px;
     z-index: 3;
+}
+
+.rightleaf {
+    height: 300px;
+    position: absolute;
+    top: 190px;
+    right: -150px;
+    z-index: 30;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 19px;
+}
+
+p {
+    font-family: Canela Thin;
+}
+
+#award {
+    background-image: url('./assets/image/award-bg.png');
 }
